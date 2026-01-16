@@ -13,6 +13,7 @@ export interface Product {
 }
 
 export interface CartItem {
+  price: number
   productImage: string
   productId: string
   productName: string
